@@ -86,7 +86,7 @@ public class Grid {
 	}
 
 	public static int[][] loadGrid(String file) throws FileNotFoundException{
-		Scanner scan = new Scanner(new BufferedReader(new FileReader("src/Problem11/" + file)));
+		Scanner scan = new Scanner(new BufferedReader(new FileReader("src/problem_011/" + file)));
 		scan.useDelimiter("\n");
 		int[][] grid = new int[20][20];
 		int rowNum = 0;
